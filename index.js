@@ -7,7 +7,7 @@ const app=express()
 app.use(express.json())
 
 app.use(express.static('build'))
-mongoose.connect('mongodb+srv://saidheeraj:saidheeraj@cluster0.ua7re.mongodb.net/shopshome?retryWrites=true&w=majority',{useNewUrlParser: true})
+mongoose.connect('mongodb+srv://rk:hSoqRiMJyF6le2uT@cluster0.anpnddn.mongodb.net/?retryWrites=true&w=majority',{useNewUrlParser: true})
 
 const shopSchema=new mongoose.Schema({
     username: String,
